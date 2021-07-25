@@ -23,9 +23,7 @@ const ReservationList = (props) => {
             );
           })}
 
-          {/* ReservationList 
-            {props.data[0].objectReservation}
- - {props.data[0].dateReservation} */}
+
           {console.log("props", props)}
         </Row>
       </Container>
