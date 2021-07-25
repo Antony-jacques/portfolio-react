@@ -1,0 +1,106 @@
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./banner.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.banner-content{
+    background-color: #fff;
+    height: 25vh;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding:0 3rem;
+    display:flex
+}
+
+.banner-content h2{
+    /* line-height: 25vh;
+    text-align: center;
+    font-size:20px */
+    margin: auto;
+    text-align: center;
+}
+
+.section{
+    text-align:center;
+    padding:1rem 0
+}
+
+.section h3{
+    padding:1rem 0
+}
+
+.close ::before{
+    content: 'X';
+    visibility: visible;
+    color: "black";
+    font-weight: bold;
+}
+
+.sr-only::before{
+    visibility: hidden;
+}
+
+.close{
+    /*background-color: red; */
+    visibility: hidden;
+    position: absolute;
+    right: 32px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(247, 12, 12, 0.5);
+}
+
+.section.reservationPage{
+    background-color: whitesmoke;
+
+}
+
+.section.reservationPage .card{
+    padding:0 0 1rem;
+    margin:1rem
+}
+
+.section.reservationPage .card-body{
+    padding:0
+}
+
+.section.reservationPage .card-title{
+    color:white;
+    padding:1rem;
+    /* background-color:#ffe063; */
+    background-color:rgb(33, 37, 41);
+    margin-bottom:1rem
+}
+
+.price{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,.125)
+
+}
+
+.sous-prestation-general{
+    padding: 1rem;
+        border-bottom: 1px solid rgba(0,0,0,.125);
+
+}
+
+.btn-box{
+    display: flex;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50px);
+    /* margin-top: 5rem; */
+}
+
+.space{
+    height:4rem
+}
